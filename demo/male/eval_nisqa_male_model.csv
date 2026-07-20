@@ -1,0 +1,16 @@
+path,transcription,mos_pred,noi_pred,dis_pred,col_pred,loud_pred,model
+sent_0.wav,Imapaqtaq ashwanta celularniykita apanaqanki?,4.8160725,4.567823,4.765534,4.5207276,4.5248723,NISQAv2
+sent_10.wav,"Wawa kaspayki, imaynatan taytamamaykita yanaparqanki?",4.714237,4.5585055,4.704727,4.4604015,4.574462,NISQAv2
+sent_11.wav,Kay killaqa mana maytapis karu llaqtamanqa risaqchu.,4.699976,4.4538593,4.7830334,4.5077963,4.382791,NISQAv2
+sent_12.wav,"Wasiq rakinkunaqa kashan: wayk'una wasi, mikhuna wasi, puñuna wasi, hinaspapis hisp'ana wasi.",4.640231,4.524195,4.592924,4.317452,4.3854394,NISQAv2
+sent_13.wav,"Aylluypaq p'achankunaqa munay pullirayuq, muntirayuq, chamarayuq hinallataq warak'ayuq.",4.6674705,4.5863566,4.7136426,4.3811975,4.4970937,NISQAv2
+sent_14.wav,"Qhatuqa llaqtaypi hunt'a llipin muyuq llaqtakunamanta hamunku, qhatukuqpis rantikuqpis.",4.4538755,4.53079,4.527862,4.1476374,4.1716557,NISQAv2
+sent_1.wav,Mana yachakunchu imatachá musuq watapi ruwasaq.,4.6895943,4.560373,4.5976825,4.37316,4.42154,NISQAv2
+sent_2.wav,T'ikakunaqta manan nishuta qhichwa simipi sutinkunata riqsinichu.,4.5494165,4.5565343,4.6159286,4.376278,4.4542084,NISQAv2
+sent_3.wav,"Kusisqa runallan kani, ch'in purikuq utaq kusisqa purikuq.",4.3668094,4.217019,4.5833907,4.2313976,4.1968594,NISQAv2
+sent_4.wav,Chayllatapuniyá ruwasharqani.,4.3374352,4.4578443,4.594675,4.290732,4.296868,NISQAv2
+sent_5.wav,"Qhali warmi kani, saphiymantapacha yachayniyuq.",4.362585,4.4379344,4.5596266,4.198459,4.286863,NISQAv2
+sent_6.wav,"Turay ama llakisqa puriychu, kusikuspalla purikunaqa.",4.488476,4.457973,4.680438,4.2887783,4.4725294,NISQAv2
+sent_7.wav,"Nuqa hatarispa uyayta, kiruyta maqchikuni, hinaspa wayk'uni mikhunayta.",4.4969234,4.511589,4.6599727,4.297499,4.4000316,NISQAv2
+sent_8.wav,Nuqa phishqa watapi nuqa llank'asaq yachachiqhina.,4.3824353,4.588939,4.675561,4.3561444,4.4285493,NISQAv2
+sent_9.wav,Kayta ruwanayta tukuspa nuqa mikhuq purinay karqan.,4.7612867,4.594479,4.6681523,4.4767594,4.611138,NISQAv2
