@@ -25,3 +25,9 @@ pip install -r requirements_tts.txt
 python run_inference.py female_model --checkpoint female_model.pth --text Kunanqa nuqapis qichwata rimaniña. --output demo.wav
 ```
 
+## Baseline
+
+A baseline for the (non-linguistic) sound quality of TTS-generated audio was calculated using [NISQA](https://github.com/gabrielmittag/NISQA). Details of the scores are available in the evaluations directory.
+The average is
+- 3.8 for female voices
+- 4.5 for the male model
