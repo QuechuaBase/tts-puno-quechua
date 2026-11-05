@@ -8,7 +8,7 @@ We used the VITS architecture implemented by [Coqui TTS](https://github.com/coqu
 The model for female voices is trained on 62 voices (23 hours of data - 17,547 clips).
 It can generate speech in **4 anonymised voices** (see the demo directory to listen to an example of each voice).
 
-![speakers embeddings](/home/johanna/Documents/Postdoc/TTS/tts-puno-quechua/visualisations/speaker_embeddings_female_model.png)
+![speakers embeddings](https://github.com/QuechuaBase/tts-puno-quechua/tree/main/visualisations/speaker_embeddings_female_model.png)
 
 
 ## Run inference

@@ -1,3 +1,4 @@
+from TTS.api import TTS
 import argparse
 import os
 from glob import glob
