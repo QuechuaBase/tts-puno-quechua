@@ -8,8 +8,11 @@ We used the VITS architecture implemented by [Coqui TTS](https://github.com/coqu
 The model for female voices is trained on 62 voices (23 hours of data - 17,547 clips).
 It can generate speech in **4 anonymised voices** (see the demo directory to listen to an example of each voice).
 
-![speakers embeddings](https://github.com/QuechuaBase/tts-puno-quechua/tree/main/visualisations/speaker_embeddings_female_model.png)
+![speakers embeddings](./visualisations/speaker_embeddings_female_model.png)
 
+## Downloading the models
+The model weights are stored with Git LFS.
+Run `git lfs install` before cloning the repo.
 
 ## Run inference
 
@@ -22,7 +25,7 @@ pip install -r requirements_tts.txt
 2) Download the model with the config.json (female_model or male_model directory)
 3) Run inference with provided script:
 ```
-python run_inference.py female_model --checkpoint female_model.pth --text Kunanqa nuqapis qichwata rimaniña. --output demo.wav
+python run_inference.py female_model --checkpoint female_model.pth --text "Kunanqa nuqapis qichwata rimaniña." --output demo.wav
 ```
 
 ## Baseline

@@ -15,11 +15,13 @@ parser.add_argument(
     "--output", "-o", default="demo.wav", help="Name of generated wav")
 
 args = parser.parse_args()
+ckpt = args.checkpoint
 
-if not args.checkpoint:
+if not ckpt:
     detected = glob(os.path.join(args.dirname, "*.pth"))
     print(f"Checkpoints detected in the directory: {detected}. Using detected[0]")
     ckpt = detected[0]
+
 
 model_path = os.path.join(args.dirname, ckpt)
 text = args.text
