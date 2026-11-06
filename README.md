@@ -11,7 +11,6 @@ Puno Quechua is mainly a spoken language. Most speakers went to school in Spanis
 - [Voice anonymisation](#voice-anonymisation)
 - [Evaluation](#evaluation)
 - [Usage](#usage)
-- [Repository layout](#repository-layout)
 - [Limitations and future work](#limitations-and-future-work)
 - [Related resources](#related-resources)
 - [License](#license)
@@ -99,6 +98,8 @@ Mean and median NISQA MOS per voice (15 sentences each):
 
 The male model scores consistently high because it was trained on a small amount of clean, consistent audio from two people. The female voices vary more. `anon_speaker_002` and `anon_speaker_003` are the strongest, and `anon_speaker_000` is noticeably weaker. Scores per sentence and per dimension are in [`evaluations/`](evaluations/).
 
+See [`demo/README.md`](demo/README.md) for a description of each audio sample.
+
 ## Usage
 
 ### 1. Clone with Git LFS
@@ -140,22 +141,6 @@ python run_inference.py female_model \
 | `--output`, `-o` | Output `.wav` path | `demo.wav` |
 
 The model reads characters directly (graphemes), so write the input in standard Quechua spelling, using `'` for ejectives (e.g. `p'unchay`, `hallp'a`).
-
-## Repository layout
-
-```
-.
-├── female_model/        Released female VITS model (config, LFS checkpoint, speaker embeddings)
-├── demo/
-│   ├── female/          One sample per anonymised female voice
-│   └── male/            Evaluation sentences from the unreleased male model, with NISQA scores
-├── evaluations/         Evaluation sentences and NISQA scores for both models
-├── visualisations/      Speaker-embedding plot of the female model
-├── run_inference.py     Command-line inference script
-└── requirements_tts.txt Pinned dependencies (Coqui TTS)
-```
-
-See [`demo/README.md`](demo/README.md) for a description of each audio sample.
 
 ## Limitations and future work
 
